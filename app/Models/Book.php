@@ -8,5 +8,16 @@ use Illuminate\Database\Eloquent\Model;
 class Book extends Model
 {
     // use HasFactory;
-    protected $fillable = ['name', 'author', 'year'];
+    protected $fillable = [
+        'nombre',
+        'responsable',
+        'email',
+        'telefono',
+        'idGiro',
+        'idSector',
+        'idTipoSec',
+        'idTamanio',
+        'idAreaC',
+        'idAlcance',
+    ];
 }
